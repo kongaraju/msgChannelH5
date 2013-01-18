@@ -32,12 +32,12 @@ $(function() {
 	},[channel.port2]);
 	
 	
-	/*channel.port1.postMessage("channel port1 msg");
+
 	
-	channel.port1.onmessage=function(e){
-		$("#log").append("<br> port1 recieved msg : " + e.data);
-		console.log(e.data);
-	}*/
+
+
+
+
 
 	$("#send1").click(function() {
 		var msg = $("#msg").val();
