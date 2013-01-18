@@ -31,13 +31,6 @@ $(function() {
 		msg : "ping"
 	},[channel.port2]);
 	
-	
-
-	
-
-
-
-
 
 	$("#send1").click(function() {
 		var msg = $("#msg").val();
